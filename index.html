@@ -1,21 +1,45 @@
 <!DOCTYPE html>
-<html lang="it">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Biglietto da Visita</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+<title>Il mio biglietto digitale</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body{
+font-family: Arial;
+text-align:center;
+background:#f5f5f5;
+padding:40px;
+}
+.card{
+background:white;
+padding:30px;
+border-radius:10px;
+max-width:400px;
+margin:auto;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+a{
+display:block;
+margin:10px;
+color:#0077cc;
+text-decoration:none;
+}
+</style>
 </head>
-<body class="bg-gray-100 flex items-center justify-center h-screen">
-    <div class="bg-white p-8 rounded-lg shadow-xl text-center max-w-sm">
-        <h1 class="text-2xl font-bold text-gray-800">Tuo Nome e Cognome</h1>
-        <p class="text-blue-600 font-medium">Il Tuo Ruolo / Professione</p>
-        <hr class="my-4">
-        <div class="space-y-3">
-            <a href="mailto:tua@email.com" class="block bg-gray-800 text-white py-2 rounded hover:bg-black">Email</a>
-            <a href="https://linkedin.com/in/tuoprofilo" class="block bg-blue-700 text-white py-2 rounded hover:bg-blue-800">LinkedIn</a>
-            <a href="https://github.com/tuousername" class="block bg-gray-200 text-gray-800 py-2 rounded hover:bg-gray-300">GitHub</a>
-        </div>
-    </div>
+
+<body>
+
+<div class="card">
+
+<h1>Mario Rossi</h1>
+<p>Consulente digitale</p>
+
+<a href="tel:+39123456789">📞 Chiama</a>
+<a href="mailto:email@email.com">✉️ Email</a>
+<a href="https://www.linkedin.com">LinkedIn</a>
+<a href="https://wa.me/39123456789">WhatsApp</a>
+
+</div>
+
 </body>
 </html>
